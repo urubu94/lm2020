@@ -1,0 +1,117 @@
+
+/*cabecera*/
+
+header{
+  height: 150px;
+  width: 100%;
+  background: white;
+  text-align: center;
+  font-size: 29px;
+  /*Bonilla*/
+  margin-top:2%;
+}
+/*setion informacion*/
+#informacion{
+  width: 80%;
+  height: auto;
+  float: right;
+  background:white;
+}
+/*tablon*/
+aside{
+  width: 20%;
+  height:600px;
+  /*background:red;*/
+  float: left;
+  display : flex;
+}
+/*pie*/
+footer{
+  clear: both;
+  width: 100%;
+  background:#5B5554;
+}
+footer h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+/*menu*/
+.navegador{
+  width: 100%
+}
+ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F5F0EF;
+}
+li {
+  float: left;
+  width: 16.6%
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 42px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #E5E2E2 ;
+}
+/*menudos*/
+.menudos {
+  float:left;
+  width:83%;
+  margin-top: 57px;
+  text-align:center;
+}
+.menudos a {
+  background-color:#e5e5e5;
+  padding:17px;
+  margin-top:8px;
+  display:block;
+  width:100%;
+  color:black;
+}
+/*contenido-section*/
+.contenido {
+  display: flex;
+  justify-content: space-around;
+  background-color: DodgerBlue;
+}
+.contenido > div {
+  background-color: #f1f1f1;
+  width: 50%;;
+  margin: 40px;
+  text-align: center;
+  line-height: 426px;
+  font-size: 30px;
+}
+/*imagenes*/
+img{
+float: right;
+width: 10%;
+ vertical-align: middle;
+}
+
+.tori img{
+  width: 174px;
+}
+.tori{
+width: 10%;
+margin-left: 2%;
+margin-top: -7%;
+}
+/*hero-image*/
+.hero-image {
+  background-image: url("../img/hero.jpg");
+  height: 598px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
