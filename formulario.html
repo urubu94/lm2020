@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario De Contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-formulario.css">
+  </head>
+
+  <div class="cabecera">
+    <header>
+        <h1><img src="./img/arbol.jpg" alt="arbol">I.E.S. OMOIKANE</h1>
+        <div class="tori">
+          <img src="./img/tori.jpg" alt="tori">
+        </div>
+    </header>
+    </div>
+    <div class="navegador">
+   <nav>
+    <ul>
+        <li><a class="mprincipal" href="#home">EL CENTRO</a></li>
+        <li><a href="#news">COMUNIDAD EDUCATIVA</a></li>
+        <li><a href="#contact">REDES SOCIALES</a></li>
+        <li><a href="#contact">TABLÓN DE ANUNCIOS</a></li>
+        <li><a href="#about">NOSOTROS</a></li>
+        <li><a href="#about">CONTACTA</a></li>
+    </ul>
+  </nav>
+</div>
+<section id="informacion">
+    <h1>Formulario de Contacto</h1>
+
+    <div class="formulario">
+        <form action="contacto.php" method="POST">
+            <fieldset>
+                <legend>
+                    <span>Rellene los siguientes campos con sus datos personales:</span>
+                    <span>(<i class="fa fa-circle"></i>Campos obligatorios)</span>
+                  </legend>
+                    
+                    <div class="contenedor1">
+                        <label for="nombre"><i class="fa fa-circle"></i>Nombre:</label>
+                        <input type="text" name="nombre" id="nombre"  required tabindex="1">
+                        
+                        <label for="apellido"><i class="fa fa-circle"></i>Apellidos:</label>
+                        <input type="text" name="apellidos" id="apellidos" required tabindex="2">
+                        
+                        <label for="direccion">Dirección:</label>
+                        <input type="text" name="direccion" id="direccion" maxlength="60" minlength="7" >
+                    </div>
+                <div class="contenedores2y3">    
+                    <div class="contenedor2">                 
+                        <label for="direccion">Ciudad:</label>
+                        <input type="text" name="ciudad" id="ciudad" minlength="5" maxlength="25" >
+                        
+                        <label for="e-amail"><i class="fa fa-circle"></i>E-mail:</label>
+                        <input type="email" name="email" id="email" title="Introduzca correo" placeholder="correo@electronico.com" required tabindex="3">
+                    </div>
+
+                    <div class="contenedor3">
+                        <label for="direccion">Provincia:</label>
+                        <input type="text" name="provincia" id="provincia" minlength="5" maxlength="10" >
+                        
+                        <label for="telefono" class="tele">Teléfono:</label>
+                        <input type="tel"   name="telefono" id="telefono" minlength="9" maxlength="14">
+                    </div>
+                </div> 
+                <div class="contenedores4y5">   
+                     <div class="contenedor4">   
+                        <label for="curso">Curso sobre la consulta</label>
+                        <select name="curso" id="curso" tabindex="5">
+                            <option value="primaria">Primaria</option>
+                            <option value="secundaria">Secundaria</option>
+                            <option value="fpgradomedio">FP Grado Medio</option>
+                            <option value="fpgradosuperior">FP Grado Superior</option>
+                        </select>
+                    </div >
+                    <div class="contenedor5">
+                        <span>Motivo de la Consulta</span>
+                        <textarea name="otras_consultas" id="otrascon" cols="30" rows="10" placeholder="Escriba brevemente el motivo de la consulta"></textarea>
+                    </div>
+                </div>
+            </fieldset>
+            <div>
+                <label for="privacidad"></label>
+                <input type="checkbox" name="privacidad" id="privacidad" required><p>He leido y acepto los <a href="terminos.com">términos de privacidad.</a></p>
+            </div>
+            <div class="botones">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </div>
+        </form>
+    </div>
+  </section>
+  <aside class="NOTICIAS">
+    <div class="menudos">
+        <a href="#">Nuestro instituto 1</a>
+        <a href="#">Información general</a>
+        <a href="#">Oferta educativa</a>
+        <a href="#">Seccion bilingüe</a>
+        <a href="#">Departamentos</a>
+        <a href="#">Información estudiantes 2</a>
+        <a href="#">indormación familias</a>
+        <a href="#">FP</a>
+    </div>
+
+  </aside>
+  <footer>
+    <div class="pie">
+        <div class="contimagen">
+          <img src="./img/logo-combo-footer4.jpg" alt="logo-tori-sakura" title="logo-tori-sakura">
+        </div>
+       
+            <a href="https://www.google.es/maps/place/I.E.S.+Rodrigo+Caro/@37.2898073,-6.0519577,17z/data=!3m1!4b1!4m5!3m4!1s0xd1272c0fd9532c3:0xfca5c5392ec604dd!8m2!3d37.2898073!4d-6.049769">Calle Instituto 2 <br> 41100 Coria del Río <br> Sevilla</a>
+            <p>987654321 <br> 678912345</p>
+            <a href="mailto:iesomoikane@email.com">iesomoikane@email.com</a>
+          
+            <div class="redessociales">
+
+              <a href="https://es-es.facebook.com/iesomoikane" target="_blank" rel="noopener noreferrer"> <i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/iesomoikane" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.instagram.com/?hl=es/iesomoikane" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
+              <a href="https://es.linkedin.com/iesomoikane" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+              <a href="https://web.telegram.org/iesomoikane#/login" target="_blank" rel="noopener noreferrer"><i class="fa fa-telegram"></i></a>
+              
+          
+            </div>
+
+    </div>
+    
+        </footer>
+    </body>
+</html>

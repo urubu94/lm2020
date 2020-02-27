@@ -115,3 +115,38 @@ margin-top: -7%;
   background-size: cover;
   position: relative;
 }
+
+/*Bonilla-----------------------------------------------------------------------------------*/
+
+/*footer*/
+.pie {color:#E5E2E2;
+  display:flex;
+  justify-content: space-evenly;
+  align-items:center;
+  padding-top: 15px;
+  padding-bottom:15px;
+  background:#5B5554;}
+
+.pie p {font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;}
+
+
+.contimagen {display: contents;}
+
+  
+.contimagen img{ width:10%;
+              height:auto;}
+
+
+.pie a:link, a:visited {text-decoration:none;
+                      color:inherit}
+
+.redessociales i{ font-size:20px;
+              margin-left:15px;}
+
+.redessociales a:link, a:visited {  text-decoration: none;
+                                color:inherit;}
+
+.redessociales a:hover, .pie a:hover {color:rgb(241, 142, 158)}
+
+
