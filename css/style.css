@@ -222,6 +222,8 @@ vertical-align: middle;
   .contenedorsuperior, .contenedorinferior {display:flex;
                                             justify-content:space-between;
                                             flex-direction: column;}
+
+ .cursos-japones {   margin: 30px 0 20px}
   }
   
   /*--------------------------------------------*/
