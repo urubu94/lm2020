@@ -153,14 +153,16 @@ vertical-align: middle;
 
 /*Formateo de galeria----------------------------------------------------------------------------*/
 
+
 #informacion h1 {margin:30px 40% 30px 40%}
 
 .contenedores { width:60%;
                 display:block;
                 margin:0 auto 20px;}
 
-.contenedorsuperior, .contenedorinferior {display:flex;
-                                            justify-content:space-between;}
+.contenedorsuperior, .contenedorinferior {  display:flex;
+                                            justify-content:space-between;
+                                            }
 
 .tarjeta {  position:relative;
             overflow:hidden;
@@ -213,3 +215,13 @@ vertical-align: middle;
 
 .leermas a:link, .leermas a:visited {   color:blue;
                                         text-decoration: underline;}
+
+/*movil------------------------------------*/
+@media only screen and (max-width:640px){
+
+  .contenedorsuperior, .contenedorinferior {display:flex;
+                                            justify-content:space-between;
+                                            flex-direction: column;}
+  }
+  
+  /*--------------------------------------------*/
