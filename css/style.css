@@ -223,7 +223,15 @@ vertical-align: middle;
                                             justify-content:space-between;
                                             flex-direction: column;}
 
- .cursos-japones {   margin: 30px 0 20px}
+#informacion{
+  width: 100%;
+  height: auto;
+  float: center;
+  background:white;}
+
+ /*.cursos-japones {   margin: 30px 0 20px}*/
+
+ aside.NOTICIAS {display:none;}
   }
   
   /*--------------------------------------------*/
