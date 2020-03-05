@@ -266,18 +266,20 @@ vertical-align: middle;
     clear: both;
     height: 0;}
   
-  li {width:100%}
+  li {width:100%;
+  background-color: #5B5554;}
   
 .lista-nav li a {
     display: block;
-    color: black;
+    color: #F5F0EF;
     /*text-align: center;*/
     /*padding: 14px 42px;*/
     text-decoration: none;
     width:auto;
   border:1px solid black;}
 li a:hover {
-    background-color: #E5E2E2 ;}
+    background-color: #E5E2E2 ;
+  color:#5B5554;}
 
   /*botones*/
   .botones-abrir-cerrar {display: block;
