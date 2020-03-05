@@ -320,6 +320,14 @@ li a:hover {
 
 .botones-abrir-cerrar .abrir {display: block;}
 
+.botones-abrir-cerrar span {
+                            text-decoration: none;
+                            color:white;
+                            float:right;
+                            margin-top: 4%;
+                            font-size: 35px;
+                            }
+
 
 
 #barra-nav:target ul.lista-nav {height: auto;}
