@@ -292,6 +292,109 @@ div.descripcion {
 .leermas a:link, .leermas a:visited {   color:blue;
                                         text-decoration: underline;}
 
+/*Estilos para FORMULARIO-----------------------------------------------------------------------------------*/
+h1 {    margin-top:40px;
+  margin-bottom:45px;
+  text-align:center;}
+
+.formulario {   margin:0px auto;
+                background-image: url(../img/sakura-ramas.jpg);
+                background-size: 35%;
+                background-repeat: no-repeat;
+                background-position: top right;
+                font-size:20px;
+                padding-left:10%}
+
+fieldset {  border:none;}
+
+legend {    font-size:15px;
+            color:black;
+            margin-bottom:20px;}
+
+input {           margin-bottom: 15px;
+                  height:30px;
+                  border:1px solid black;
+                  border-radius:8px;
+                  font-size:18px;
+                  padding-left:1%;}
+
+.contenedor1 {  margin-bottom:20px;}
+
+.contenedor1 label {    display:block;
+                        margin-bottom:5px;}
+
+.contenedor1 input {    width:80%;}
+
+.contenedores2y3, .contenedores4y5 {    width: 100%;
+                                        display:flex;
+                                        margin-bottom:60px;}
+
+.contenedores2y3 input {    width:78%;}
+
+.contenedores2y3 label {    display:block;
+                            margin-bottom:5px;}
+
+.contenedor2   {    width:50.5%;
+                    margin-right:-9%}
+
+.contenedor3 {  width:50%;
+                float:right;}
+
+.contenedores4y5 label, span {  display:block;
+                                margin-bottom:15px;}
+
+.contenedores4y5 {margin-bottom:20px}
+
+.contenedor4 {  width:20%;
+                padding-left:2%}
+
+.contenedor4 select {   font-size: large;
+                        width:100%;
+                        border-radius:8px;}
+
+.contenedor5 { width:58%}
+
+.contenedor5 span {text-align:center;}
+
+.contenedor5 textarea { width:90%;
+                        resize:none;
+                        margin-left:10%;
+                        margin-right:5%;
+                        border-radius: 8px;
+                        padding:1% 0% 0% 1%;}
+
+input[type="checkbox"] {    width:15px;
+                            height:15px;
+                            margin-right:1%;}
+
+p { display:inline;
+    font-size:15px;}
+
+.botones input {    border:1px solid rgb(6, 44, 148);
+                    background-color: rgb(0, 168, 255);
+                    width:20%;
+                    height:45px;
+                    font-size:25px;
+                    color: white;}
+
+.botones input[type="submit"]:hover, [type="reset"]:hover {     cursor: pointer;
+                                                                background-color: rgb(23, 137, 194);
+                                                                border:1px solid rgb(113, 202, 247);
+                                                                box-shadow:1px 2px rgb(9, 88, 128);
+                                                                text-decoration: underline rgb(174, 211, 230);}
+
+.botones {  margin-right:20%;
+            margin-top:20px;
+            margin-left:-5%;
+            display:flex;
+            justify-content: space-evenly;}
+
+.fa.fa-circle {   color:rgb(241, 142, 158);
+                        font-size:8px;
+                        margin-right:4px;
+                        vertical-align: middle;}
+                                                 
+
 /*version PC-------------------------------*/
 @media only screen and (min-width: 769px){
 
@@ -434,9 +537,33 @@ li a:hover {
 
 .redessociales {margin-bottom:5%;}
 
-.redessociales i{font-size:50px;
-                  margin-right:10px}
+.redessociales i{font-size:40px;
+                  margin-right:8px}
+
+/*FORMULARIO responsive------------------------------------------------------------*/
+
+fieldset {padding-left: 0%;}
+
+.contenedor1 input {width:95%}
+
+.contenedores2y3 {flex-direction: column;}
+
+.contenedor2, .contenedor3 {width:100%;}
+
+.contenedor2 input, .contenedor3 input {width:95%}
+
+.contenedores4y5 {flex-direction: column;}
+
+.contenedor4 {width:95%;
+              font-size:x-large;}
+
+.contenedor5 textarea { width:150%;
+                        margin-left: 0%;
+                        margin-right: 0%;}
 
 
+.botones {flex-direction:column;}
+
+.botones input {width:115%}
 }
   /*-------------------------------------*/
