@@ -1,0 +1,9 @@
+.examenesnoken {display:block;}
+
+table {border:1px solid red;
+        text-align: center;}
+table td {border:1px solid red;}
+
+.avisos-examen {margin:0;
+                padding:0;
+}
